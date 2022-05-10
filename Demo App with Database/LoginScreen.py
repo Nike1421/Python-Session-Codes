@@ -1,6 +1,5 @@
 import tkinter
 from tkinter import ttk
-from tkinter import font
 from PIL import Image, ImageTk
 
 # Declare the main root frame of the application
