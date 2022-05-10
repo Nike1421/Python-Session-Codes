@@ -5,7 +5,7 @@ from TreeviewDatabase import Database
 
 root = Tk()
 root.title('Database App')
-root.geometry('800x500')
+root.geometry('750x500')
 
 main_frame = ttk.Frame(root, width=800, height=500)
 main_frame.pack(padx=5, pady= 5)
