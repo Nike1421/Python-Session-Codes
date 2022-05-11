@@ -33,8 +33,7 @@ def select(e):
     selected = my_tree.focus()
 	# Grab record values
     values = my_tree.item(selected, 'values')
-    print(values)
-	# outpus to entry boxes
+    # outpus to entry boxes
     id_entry.insert(0, values[0])
     fn_entry.insert(0, values[1])
     ln_entry.insert(0, values[2])
