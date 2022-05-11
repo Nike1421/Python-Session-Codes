@@ -15,7 +15,7 @@ db = Database('Student.db')
 
 def populateTreeview():
     records = db.queryAll()
-
+    my_tree.delete()
     # Add our data to the screen
     global count
     count = 0
