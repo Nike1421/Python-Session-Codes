@@ -11,9 +11,9 @@ Subject-in-charge: Prof. (Ms.) Prachi Tawde, Asst. Professor, Dwarkadas J. Sangh
 Topics Covered in the Session:
 1. UI Elements in Python Tkinter
 2. Creating crisp User Interfaces
-3. Database Connectivity
+3. Database Connectivity using SQLite and MySQL
 
 Software Used:
 1. Visual Studio Code
 2. SQLite Database
-3. Microsoft SQL Server
+3. MySQL Database
