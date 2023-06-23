@@ -15,13 +15,19 @@ main_frame.pack(padx=5, pady= 5)
 main_frame.pack_propagate(False)
 
 # Connect with Database
+db = Database('Student.db')
 
 # Define Commands for Button Click
 def populateTreeview():
     pass
 
 def insert():
-    pass
+    db.insertEntry(
+        {
+            'first_name': fn_entry.get(),
+            'last_name': ln_entry.get()
+        }
+    )
 
 def select(event):
     pass
